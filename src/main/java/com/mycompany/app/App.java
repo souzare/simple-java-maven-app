@@ -4,7 +4,8 @@ package com.mycompany.app;
  * Hello world!
  */
 public class App {
-
+    static private SimpleDateFormat format = new SimpleDateFormat("HH-mm-ss");  // Noncompliant
+    static private Calendar calendar = Calendar.getInstance();  // Noncompliant
     private static final String MESSAGE = "Hello World!";
 
     public App() {}
@@ -16,8 +17,5 @@ public class App {
     public String getMessage() {
         return MESSAGE;
     }
-    double d = 1.1;
-
-BigDecimal bd1 = new BigDecimal(d); // Noncompliant; see comment above
-BigDecimal bd2 = new BigDecimal(1.1); // Noncompliant; same result
+    
 }
