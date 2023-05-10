@@ -16,11 +16,8 @@ public class App {
     public String getMessage() {
         return MESSAGE;
     }
-    int foo(int a) {
-  int b = 12;
-  if (a == 1) {
-    return b;
-  }
-  return b;  // Noncompliant
-}
+    double d = 1.1;
+
+BigDecimal bd1 = new BigDecimal(d); // Noncompliant; see comment above
+BigDecimal bd2 = new BigDecimal(1.1); // Noncompliant; same result
 }
