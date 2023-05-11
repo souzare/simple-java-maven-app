@@ -9,7 +9,7 @@ public class App {
     private static final String MESSAGE = "Hello World!";
     
     public App() {
-        // Do nothing because of X and Y.
+        
     }
     
     public static void main(String[] args) {
