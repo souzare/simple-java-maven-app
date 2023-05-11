@@ -7,9 +7,11 @@ public class App {
     //static private SimpleDateFormat format = new SimpleDateFormat("HH-mm-ss");  // Noncompliant
     //static private Calendar calendar = Calendar.getInstance();  // Noncompliant
     private static final String MESSAGE = "Hello World!";
-
-    public App() {}
-
+    
+    public App() {
+        // Do nothing because of X and Y.
+    }
+    
     public static void main(String[] args) {
         System.out.println(MESSAGE);
     }
