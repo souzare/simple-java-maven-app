@@ -4,8 +4,8 @@ package com.mycompany.app;
  * Hello world!
  */
 public class App {
-    static private SimpleDateFormat format = new SimpleDateFormat("HH-mm-ss");  // Noncompliant
-    static private Calendar calendar = Calendar.getInstance();  // Noncompliant
+    //static private SimpleDateFormat format = new SimpleDateFormat("HH-mm-ss");  // Noncompliant
+    //static private Calendar calendar = Calendar.getInstance();  // Noncompliant
     private static final String MESSAGE = "Hello World!";
 
     public App() {}
