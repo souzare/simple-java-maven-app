@@ -9,7 +9,7 @@ public class App {
     private static final String MESSAGE = "Hello World!";
     
     public App() {
-        
+        //Esse método faz o Fernando segurar a franga
     }
     
     public static void main(String[] args) {
