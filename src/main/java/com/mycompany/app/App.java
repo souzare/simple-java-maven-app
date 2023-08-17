@@ -9,7 +9,7 @@ public class App {
     private static final String MESSAGE = "Hello World!";
     
     public App() {
-        //comentario para passar o codigo
+        
     }
     
     public static void main(String[] args) {
