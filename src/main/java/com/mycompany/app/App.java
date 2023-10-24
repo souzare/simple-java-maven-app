@@ -8,9 +8,6 @@ public class App {
     //static private Calendar calendar = Calendar.getInstance();  // Noncompliant
     private static final String MESSAGE = "Quode";
     
-    public App() {
-        
-    }
     
     public static void main(String[] args) {
         System.out.println(MESSAGE);
